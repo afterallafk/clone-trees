@@ -1,3 +1,5 @@
+#!/bin/bash
+
   #remove_HALS
      rm -rf hardware/qcom-caf/wlan
      rm -rf hardware/qcom-caf/msm8996/audio
