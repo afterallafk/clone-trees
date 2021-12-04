@@ -20,4 +20,4 @@
     #clone_trees
      git clone https://github.com/afterallafk/device_xiaomi_onclite-1.git -b twelve device/xiaomi/onclite
      git clone https://github.com/afterallafk/device_xiaomi_onclite-1.git -b twelve vendor/xiaomi/onclite
-     git clone https://github.com/afterallafk/kernel_xiaomi_onclite.git -b 12 kernel/xiaomi/onclite
+     git clone https://github.com/afterallafk/kernel_xiaomi_onclite.git -b twelve kernel/xiaomi/onclite
