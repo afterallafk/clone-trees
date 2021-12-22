@@ -8,8 +8,8 @@
    
    #remove_old_trees
      rm -rf device/xiaomi/onclite
-     rm -rf vendor/xiaomi/onclite
-     rm -rf kernel/xiaomi/onclite 
+     #rm -rf vendor/xiaomi/onclite
+     #rm -rf kernel/xiaomi/onclite 
    
    #replace source files
      #rm -rf device/qcom/sepolicy_vndr
@@ -33,5 +33,5 @@
     
     #clone_trees
      git clone https://github.com/afterallafk/device_xiaomi_onclite_12.git -b twelve device/xiaomi/onclite
-     git clone https://github.com/afterallafk/vendor_xiaomi_onclite-12.git -b twelve vendor/xiaomi/onclite
-     git clone https://github.com/afterallafk/kernel_xiaomi_onclite.git -b twelve kernel/xiaomi/onclite
+     #git clone https://github.com/afterallafk/vendor_xiaomi_onclite-12.git -b twelve vendor/xiaomi/onclite
+     #git clone https://github.com/afterallafk/kernel_xiaomi_onclite.git -b twelve kernel/xiaomi/onclite
