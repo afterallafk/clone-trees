@@ -11,14 +11,6 @@
      rm -rf vendor/xiaomi/onclite
      rm -rf kernel/xiaomi/onclite 
    
-   
-   #clone files
-     git clone https://github.com/afterallafk/device_qcom_sepolicy_vndr.git -b 12 device/qcom/sepolicy_vndr
-     git clone https://github.com/afterallafk/device_qcom_sepolicy-legacy-um.git -b 12 device/qcom/sepolicy-legacy-um
-     git clone https://github.com/afterallafk/device_qcom_sepolicy.git -b 12 device/qcom/sepolicy
-     git clone https://github.com/afterallafk/system_sepolicy.git -b 12 system/sepolicy
-     git clone https://github.com/afterallafk/android_external_selinux.git -b 12 external/selinux
-   
    #clone_HALS
      git clone https://github.com/afterallafk/android_hardware_qcom_display.git -b lineage-18.1-caf-msm8996 hardware/qcom-caf/msm8996/display
      git clone https://github.com/afterallafk/hardware_qcom-caf_msm8996_audio.git -b twelve hardware/qcom-caf/msm8996/audio
