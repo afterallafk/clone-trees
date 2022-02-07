@@ -7,9 +7,9 @@
      #rm -rf hardware/qcom-caf/msm8996/media
    
    #remove_old_trees
-     rm -rf device/xiaomi/onclite
-     rm -rf vendor/xiaomi/onclite
-     rm -rf kernel/xiaomi/onclite 
+     #rm -rf device/xiaomi/onclite
+     #rm -rf vendor/xiaomi/onclite
+     #rm -rf kernel/xiaomi/onclite 
    
    #clone_HALS
      git clone https://github.com/afterallafk/hardware_qcom-caf_msm8996_audio.git -b 12 hardware/qcom-caf/msm8996/audio
